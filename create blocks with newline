@@ -59,6 +59,7 @@ public class DB_Assignment2
                 bw1.write(Constants.NEWLINE);
                 if(i%blockSize==blockSize-1 )
                 {
+                   if(i!=n-1)
                     bw1.write("C:\\Users\\Mamta Sharma\\Documents\\NetBeansProjects\\DB_Assignment2\\src\\db_assignment2\\Blocks\\file"+(count+1)+".txt");
                     count++;
                     bw1.close();
